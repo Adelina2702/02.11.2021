@@ -1,24 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import AddContacts from './components/addContact/AddContacts';
+import ContactList from './components/contactList/ContactList';
+import Counter from './components/Counter';
+import EditContacts from './components/editContacts/EditContacts';
+import Ingredients from './components/Ingredients/Ingredients';
+import Receipts from './components/Receipts/Receipts';
+import Users from './components/User/User';
+import ContactContextProvider from './context/ContactContext';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <ContactContextProvider>
+    <Counter/>
+    <Receipts />
+    <Ingredients/>
+    <Users/>
+    <AddContacts/>
+     <ContactList/>
+    <EditContacts/> 
+    </ContactContextProvider>
+    </>
   );
 }
 

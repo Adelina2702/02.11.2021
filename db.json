@@ -1,0 +1,39 @@
+{
+  "contacts": [
+    {
+      "name": "Korgi",
+      "phone": "996554144233",
+      "email": "korgi@gmail.com",
+      "image": "http://mtdata.ru/u8/photo3A81/20726275710-0/original.jpg",
+      "id": 2
+    },
+    {
+      "name": "Korgi2",
+      "phone": "996708996623",
+      "email": "korgi2@gmail.com",
+      "image": "https://sun6-23.userapi.com/impg/0Sr1hvLn4hbKzlQRJwIIKA81S3gn-iWufG2hCw/HhNTtZhfa-g.jpg?size=864x1080&quality=96&sign=c5557caad8b652d1eeeac760d4413a94&c_uniq_tag=HVFblUAp3rjy26HoWPUhufh29H6NMA_pwAuywXWlKJU&type=album",
+      "id": 3
+    },
+    {
+      "name": "Korgi3",
+      "phone": "996502436785",
+      "email": "korgi3@gmail.com",
+      "image": "https://r1.mt.ru/r25/photo163D/20282965573-0/jpg/bp.jpeg",
+      "id": 4
+    },
+    {
+      "name": "Korgi4",
+      "phone": "996222998467",
+      "email": "korgi4@gmail.com",
+      "image": "https://mfiles.alphacoders.com/880/880020.jpg",
+      "id": 5
+    },
+    {
+      "name": "123",
+      "phone": "123",
+      "email": "123",
+      "image": "123",
+      "id": 6
+    }
+  ]
+}
